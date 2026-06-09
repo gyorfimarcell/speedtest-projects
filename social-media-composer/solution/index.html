@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media Composer</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="composer">
+        <textarea
+          id="text"
+          rows="7"
+          placeholder="Write your thoughts here..."
+          spellcheck="false"
+        ></textarea>
+        <div class="footer">
+          <p id="counter"><span id="chars">0</span> / 140</p>
+          <button id="post" disabled="true">Post</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
