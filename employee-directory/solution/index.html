@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Directory</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="directory">
+      <div id="filters">
+        <input type="text" placeholder="Search employees..." id="search" />
+
+        <select id="department" aria-label="Departments">
+          <option value="">All Departments</option>
+        </select>
+
+        <select id="type" aria-label="Employment type">
+          <option value="">All Employment Types</option>
+          <option value="full-time">Full-Time</option>
+          <option value="part-time">Part-Time</option>
+          <option value="contract">Contract</option>
+        </select>
+      </div>
+
+      <div id="employee-grid">
+        <div class="employee-card">
+          <div class="employee-header">
+            <img src="avatars/sarah-johnson.jpg" alt="Employee" />
+            <div>
+              <div class="employee-name">Sarah Johnson</div>
+              <div class="employee-title">Lead Frontend Developer</div>
+            </div>
+          </div>
+
+          <div class="employee-details">
+            <div>
+              <span class="label">Department:</span>
+              <span class="employee-department">Engineering</span>
+            </div>
+            <div>
+              <span class="label">Type:</span>
+              <span class="employee-type">Full-Time</span>
+            </div>
+            <div>
+              <span class="label">Email:</span>
+              <a href="mailto:sarah.johnson@company.com" class="employee-email"
+                >sarah.johnson@company.com</a
+              >
+            </div>
+            <div>
+              <span class="label">Phone:</span>
+              <a href="tel:555-0101" class="employee-phone">555-0101</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Johnson",
+    "title": "Lead Frontend Developer",
+    "department": "Engineering",
+    "employmentType": "full-time",
+    "email": "sarah.johnson@example.com",
+    "phone": "555-0101",
+    "profileImage": "sarah-johnson.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Michael Chen",
+    "title": "Senior Backend Developer",
+    "department": "Engineering",
+    "employmentType": "full-time",
+    "email": "michael.chen@example.com",
+    "phone": "555-0102",
+    "profileImage": "michael-chen.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Emma Davis",
+    "title": "UI/UX Designer",
+    "department": "Design",
+    "employmentType": "full-time",
+    "email": "emma.davis@example.com",
+    "phone": "555-0103",
+    "profileImage": "emma-davis.jpg"
+  },
+  {
+    "id": 4,
+    "name": "James Wilson",
+    "title": "Project Manager",
+    "department": "Project Management",
+    "employmentType": "full-time",
+    "email": "james.wilson@example.com",
+    "phone": "555-0104",
+    "profileImage": "james-wilson.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Olivia Martinez",
+    "title": "QA Engineer",
+    "department": "Quality Assurance",
+    "employmentType": "full-time",
+    "email": "olivia.martinez@example.com",
+    "phone": "555-0105",
+    "profileImage": "olivia-martinez.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Daniel Brown",
+    "title": "DevOps Engineer",
+    "department": "Infrastructure",
+    "employmentType": "full-time",
+    "email": "daniel.brown@example.com",
+    "phone": "555-0106",
+    "profileImage": "daniel-brown.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Sophia Garcia",
+    "title": "Frontend Developer",
+    "department": "Engineering",
+    "employmentType": "part-time",
+    "email": "sophia.garcia@example.com",
+    "phone": "555-0107",
+    "profileImage": "sophia-garcia.jpg"
+  },
+  {
+    "id": 8,
+    "name": "William Taylor",
+    "title": "Backend Developer",
+    "department": "Engineering",
+    "employmentType": "contract",
+    "email": "william.taylor@example.com",
+    "phone": "555-0108",
+    "profileImage": "william-taylor.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Ava Anderson",
+    "title": "UX Researcher",
+    "department": "Design",
+    "employmentType": "full-time",
+    "email": "ava.anderson@example.com",
+    "phone": "555-0109",
+    "profileImage": "ava-anderson.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Benjamin Thomas",
+    "title": "Technical Lead",
+    "department": "Engineering",
+    "employmentType": "full-time",
+    "email": "benjamin.thomas@example.com",
+    "phone": "555-0110",
+    "profileImage": "benjamin-thomas.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Mia Jackson",
+    "title": "Content Strategist",
+    "department": "Marketing",
+    "employmentType": "part-time",
+    "email": "mia.jackson@example.com",
+    "phone": "555-0111",
+    "profileImage": "mia-jackson.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Ethan White",
+    "title": "SEO Specialist",
+    "department": "Marketing",
+    "employmentType": "full-time",
+    "email": "ethan.white@example.com",
+    "phone": "555-0112",
+    "profileImage": "ethan-white.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Charlotte Harris",
+    "title": "Account Manager",
+    "department": "Client Services",
+    "employmentType": "full-time",
+    "email": "charlotte.harris@example.com",
+    "phone": "555-0113",
+    "profileImage": "charlotte-harris.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Lucas Martin",
+    "title": "Full Stack Developer",
+    "department": "Engineering",
+    "employmentType": "contract",
+    "email": "lucas.martin@example.com",
+    "phone": "555-0114",
+    "profileImage": "lucas-martin.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Amelia Thompson",
+    "title": "Product Owner",
+    "department": "Product",
+    "employmentType": "full-time",
+    "email": "amelia.thompson@example.com",
+    "phone": "555-0115",
+    "profileImage": "amelia-thompson.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Henry Moore",
+    "title": "Scrum Master",
+    "department": "Project Management",
+    "employmentType": "contract",
+    "email": "henry.moore@example.com",
+    "phone": "555-0116",
+    "profileImage": "henry-moore.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Isabella Clark",
+    "title": "Graphic Designer",
+    "department": "Design",
+    "employmentType": "part-time",
+    "email": "isabella.clark@example.com",
+    "phone": "555-0117",
+    "profileImage": "isabella-clark.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Alexander Lewis",
+    "title": "Security Engineer",
+    "department": "Infrastructure",
+    "employmentType": "full-time",
+    "email": "alexander.lewis@example.com",
+    "phone": "555-0118",
+    "profileImage": "alexander-lewis.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Grace Walker",
+    "title": "Business Analyst",
+    "department": "Product",
+    "employmentType": "full-time",
+    "email": "grace.walker@example.com",
+    "phone": "555-0119",
+    "profileImage": "grace-walker.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Noah Hall",
+    "title": "Junior Frontend Developer",
+    "department": "Engineering",
+    "employmentType": "part-time",
+    "email": "noah.hall@example.com",
+    "phone": "555-0120",
+    "profileImage": "noah-hall.jpg"
+  }
+]
