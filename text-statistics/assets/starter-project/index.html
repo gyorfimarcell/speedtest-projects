@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Statistics</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Text Statistics</h1>
+
+      <label for="textInput">Enter your text:</label>
+      <textarea id="textInput" rows="10"></textarea>
+
+      <section class="stats">
+        <div class="stat">
+          <span class="stat-value" id="charCount">0</span>
+          <span class="stat-label">Characters</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="wordCount">0</span>
+          <span class="stat-label">Words</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="sentenceCount">0</span>
+          <span class="stat-label">Sentences</span>
+        </div>
+      </section>
+
+      <section class="frequencies">
+        <h2>Letter Frequency</h2>
+        <div id="frequencyTable"></div>
+      </section>
+    </main>
+
+    <script type="module" src="dashboard.js"></script>
+  </body>
+</html>
