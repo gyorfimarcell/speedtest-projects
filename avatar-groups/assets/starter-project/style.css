@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  padding: 2rem;
+}
+
+.avatar {
+  width: 64px;
+}
+
+/* Your code goes below here */
