@@ -1,0 +1,168 @@
+:root {
+  --color-accent: #e63946;
+  --color-bg: #fff;
+  --color-text: #222;
+  --color-text-soft: #333;
+  --color-text-muted: #444;
+  --color-text-subtle: #666;
+  --color-text-faint: #888;
+  --color-border: #eee;
+  --color-footer-bg: #1d1d1d;
+  --color-footer-text: #999;
+  --color-footer-link: #ccc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    "Segoe UI",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: var(--color-bg);
+  border-bottom: 2px solid var(--color-accent);
+  padding: 1rem 2rem;
+}
+
+.header-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  color: var(--color-text-muted);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: var(--color-accent);
+}
+
+main {
+  flex: 1;
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.category {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--color-accent);
+  margin-bottom: 0.25rem;
+}
+
+h1 {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+}
+
+.byline {
+  font-size: 0.85rem;
+  color: var(--color-text-faint);
+  margin-bottom: 2.5rem;
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+p {
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+  color: var(--color-text-soft);
+}
+
+footer {
+  background: var(--color-footer-bg);
+  color: var(--color-footer-text);
+  padding: 2.5rem 2rem;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.footer-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  color: var(--color-footer-link);
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: var(--color-accent);
+}
+
+.copyright {
+  margin-bottom: 1.2rem;
+  color: var(--color-text-subtle);
+}
+
+button {
+  background: none;
+  border: 1px solid var(--color-text-muted);
+  color: var(--color-footer-link);
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-bg);
+}
